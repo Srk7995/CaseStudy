@@ -30,3 +30,12 @@ product = float(num_1) * float(num_2)
 
 print("Product of {} and {} is {}".format(num_1, num_2,product))
 
+
+Division Program
+
+
+number1=int(input("Enter the first number: "))
+  number2=int(input("Enter the second number: "))
+  result=number1/number2;
+  print(result)
+
