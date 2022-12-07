@@ -1,14 +1,10 @@
 Simple Calculator App
 
-Addition 
+Muliplicaton Program
 
-# This program adds two numbers
+num_1 = input("Enter the first number")
+num_2 = input("Enter the second number")
 
-num1 = 1.5
-num2 = 6.3
+product = float(num_1) * float(num_2)
 
-# Add two numbers
-sum = num1 + num2
-
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+print("Product of {} and {} is {}".format(num_1, num_2,product))
