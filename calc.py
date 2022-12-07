@@ -1,14 +1,9 @@
 Simple Calculator App
 
-Addition 
+Substraction Program
 
-# This program adds two numbers
+num1 = int(input("Please Enter the First Number  = "))
+num2 = int(input("Please Enter the second number = "))
 
-num1 = 1.5
-num2 = 6.3
-
-# Add two numbers
-sum = num1 + num2
-
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+sub = num1 - num2
+print('The Result of subtracting {0} from {1} = {2}'.format(num2,num1,sub))
